@@ -16,4 +16,4 @@ unittest.log
 /chess-elo-calculator
 
 # csv file
-.csv
+*.csv
