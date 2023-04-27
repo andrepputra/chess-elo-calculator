@@ -1,0 +1,16 @@
+# idea
+.idea
+.vscode
+
+# app specific vendor
+vendor
+
+# log
+*debug.log
+*error.log
+*info.log
+/log
+unittest.log
+
+# app
+/chess-elo-calculator
