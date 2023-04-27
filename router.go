@@ -68,7 +68,7 @@ func AddPlayer(w http.ResponseWriter, r *http.Request) {
 	record.Elo = DefaultElo
 	RecordMap[record.Player] = record
 
-	AddToFileRecord([]Record{record})
+	RewriteFileRecord()
 
 	jsonResp, err := jsoniter.Marshal(record)
 	if err != nil {
